@@ -9,7 +9,7 @@ async function setupPyodide() {
   try {
     const pyodide = await loadPyodide({ indexURL, packages: ['numpy'] });
 
-    const response = await fetch("main.py");
+    const response = await fetch("/main.py");
     const pythonScript = await response.text();
     pyFuncs = pyodide.runPython(pythonScript);
     console.log('Python Ready');
