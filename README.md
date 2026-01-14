@@ -2,7 +2,7 @@
 
 Simple skeleton setting up pyodide in a svelte project.
 
-Life demo here at [github pages](https://marvinvanaalst.github.io/pyodide-svelte/).
+Live demo here at [github pages](https://marvinvanaalst.github.io/pyodide-svelte/).
 
 ## Developing
 
